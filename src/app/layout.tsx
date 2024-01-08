@@ -4,6 +4,7 @@ import '@/styles/globals.css';
 import { cn } from '@/lib/utils';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
+import Head from 'next/head';
 
 const inter = Inter({ subsets: ['latin'] });
 const barlow = Barlow_Condensed({
@@ -30,6 +31,11 @@ export default function RootLayout({
         barlow.className
       )}
     >
+      <head>
+        <meta charSet="UTF-8" />
+        <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
+        <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+      </head>
       <body className="min-h-screen bg-slate-50 antialiased flex flex-col">
          <header className='w-full'>
             <div className="container mx-auto flex items-center justify-between">
