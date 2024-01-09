@@ -1,15 +1,15 @@
 export const testimonials = [
     {
-        name: 'Sơn Lê',
-        avatart: '/avatarTestimonials/son-le.jpeg',
-        position: 'BUSINESS INVESTOR - IT',
-        content: ['Trung không chỉ là một huấn luyện viên, mà còn là người bạn và nguồn động lực của mình.', 'Ngoài sự vui vẻ và nhiệt tình trong mỗi buổi tập, Trung còn rất quyết liệt trong những buổi tập giúp bản thân mình luôn có một kết quả tốt nhất.', 'Trung cũng có một phương pháp tập luyện rất khoa học,phân tích rất cụ thể để mình hiểu được hơn về cơ thể, sức khỏe của bản thân. Hơn nữa Trung cũng rất đề cao sự thoải mái, yêu thích khi tập luyện nên không có cảm giác căng thẳng khi tập luyện.', 'Tuy công việc IT yêu cầu phải ngồi nhiều và gặp rất nhiều áp lực, nhưng nhờ Trung, mình đã thay đổi hoàn toàn. Mình không chỉ có thân hình tốt hơn mà còn giảm căng thẳng và đau lưng. Trung biết cách tạo động lực và luôn đảm bảo rằng mình luôn có mục tiêu trong tập luyện.', 'Mình rất biết ơn Trung vì những thay đổi mà bạn ấy đã mang lại cho cuộc sống của mình. Nếu bạn đang tìm kiếm một huấn luyện viên cá nhân xuất sắc, hãy liên hệ với Trung. Người mà chắc chắn có thể thay đổi cuộc sống, suy nghĩ và hiểu biết của bạn về sức khỏe - tài sản lớn nhất của bạn.']
-    },
-    {
         name: 'Nhi Le',
         avatart: '/avatarTestimonials/nhile.jpg',
         position: 'BUSINESS INVESTOR - LIFE COACH',
         content: ['Nếu bạn đang tìm PT giúp bạn tích cực, năng lượng và chuyên nghiệp cho bạn thì Trung là sự chọn lựa bạn nên trải nghiệm. Được làm việc với Trung để giúp các bạn trẻ tập luyện chuyên nghiệp dù chỉ qua online nhưng hiệu quả bất ngờ. Trung không những có bài tập thích hợp để nâng level tập thể cũng như cá nhân, Trung còn biết cách chăm sóc tư  vấn cho chế độ dinh dưỡng, hay chấn thương khi tập cũng được Trung hỗ trợ nhiệt tình.', 'Hơn thế nữa, Trung luôn biết cách tạo động lực, giúp bạn không chỉ vượt qua những giới hạn của bản thân trong phòng tập, mà còn giữ tinh thần luôn sảng khoái và tích cực.', 'Nếu bạn thích sự tiện lợi và muốn tập luyện cùng một PT online thì hãy trải nghiệm với Trung. Cảm ơn Trung đã cùng chị giúp các bạn trẻ khoẻ mạnh hơn!']
+    },
+    {
+        name: 'Sơn Lê',
+        avatart: '/avatarTestimonials/son-le.jpeg',
+        position: 'BUSINESS INVESTOR - IT',
+        content: ['Trung không chỉ là một huấn luyện viên, mà còn là người bạn và nguồn động lực của mình.', 'Ngoài sự vui vẻ và nhiệt tình trong mỗi buổi tập, Trung còn rất quyết liệt trong những buổi tập giúp bản thân mình luôn có một kết quả tốt nhất.', 'Trung cũng có một phương pháp tập luyện rất khoa học,phân tích rất cụ thể để mình hiểu được hơn về cơ thể, sức khỏe của bản thân. Hơn nữa Trung cũng rất đề cao sự thoải mái, yêu thích khi tập luyện nên không có cảm giác căng thẳng khi tập luyện.', 'Tuy công việc IT yêu cầu phải ngồi nhiều và gặp rất nhiều áp lực, nhưng nhờ Trung, mình đã thay đổi hoàn toàn. Mình không chỉ có thân hình tốt hơn mà còn giảm căng thẳng và đau lưng. Trung biết cách tạo động lực và luôn đảm bảo rằng mình luôn có mục tiêu trong tập luyện.', 'Mình rất biết ơn Trung vì những thay đổi mà bạn ấy đã mang lại cho cuộc sống của mình. Nếu bạn đang tìm kiếm một huấn luyện viên cá nhân xuất sắc, hãy liên hệ với Trung. Người mà chắc chắn có thể thay đổi cuộc sống, suy nghĩ và hiểu biết của bạn về sức khỏe - tài sản lớn nhất của bạn.']
     },
     {
         name: 'Phoebe',

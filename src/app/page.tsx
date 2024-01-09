@@ -9,6 +9,7 @@ import {
   CarouselPrevious,
 } from '@/components/ui/Carousel';
 import { testimonials } from '@/constants';
+import Link from 'next/link';
 
 export default function Home() {
   return (
@@ -60,7 +61,7 @@ export default function Home() {
 
               <div className="flex justify-center md:justify-start">
                 <Button size={'lg'} variant={'outline'}>
-                  <span className="text-xl text-gray-700">Nhận Ebook</span>
+                  <a href='https://forms.gle/vVzJuy2VvWiNSKNf9' target='_blank' className="text-xl text-gray-700">Nhận Ebook</a>
                 </Button>
               </div>
             </div>
@@ -87,7 +88,7 @@ export default function Home() {
               variant={'secondary'}
               size={'lg'}
             >
-              <span className="text-xl">Coaching online</span>
+              <Link href='/coaching' className="text-xl">Coaching online</Link>
             </Button>
           </div>
         </div>
@@ -135,7 +136,7 @@ export default function Home() {
                 tốt nhất của mình.
               </p>
 
-              <div className="flex justify-center md:justify-start">
+              <div className="flex- justify-center md:justify-start hidden">
                 <Button
                   size={'lg'}
                   variant={'outline'}
