@@ -80,7 +80,7 @@ body {
 }
 
 .banner-clip-path {
-  clip-path: polygon(0 5%, 100% 0, 100% 100%, 0 95%);
+  clip-path: none;
 }
 
 .clip-path-custom-shape::after {
@@ -94,7 +94,8 @@ body {
   border-radius: 4px;
 }
 
-#eapps-facebook-reviews-f5be9c5d-b1cc-4245-b8df-49c6b0de8143 > div > div > div > div.WidgetBackground__ContentContainer-sc-1ho7q3r-1.fyVdxN > div > a {
-  display: none!important;
-  opacity: 0;
+@media (min-width: 640px) {
+  .banner-clip-path {
+    clip-path: polygon(0 5%, 100% 0, 100% 100%, 0 95%);
+  }
 }

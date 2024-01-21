@@ -22,6 +22,8 @@ export default function Navbar() {
               height={50}
               alt="logo"
               className="rounded-full h-auto w-auto"
+              placeholder='blur'
+              loading="lazy"	
             />
           </Link>
           <div className="md:hidden">
@@ -70,7 +72,7 @@ export default function Navbar() {
             {navigation.map((item, idx) => {
               const isActive = pathname === item.path;
               return (
-                <li key={idx} className={cn("text-gray-700 hover:text-[#F5B905]", isActive && 'text-primary')}>
+                <li onClick={() => setState(false)} key={idx} className={cn("text-gray-700 hover:text-[#F5B905]", isActive && 'text-primary')}>
                   <Link href={item.path} className="block">
                     <span className='font-medium text-xl'>{item.title}</span>
                   </Link>

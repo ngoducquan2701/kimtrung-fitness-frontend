@@ -32,6 +32,8 @@ export default function Coaching() {
               src="/coaching/coaching-thumb.png"
               height={889}
               width={725.5}
+              placeholder="blur"
+              loading="lazy"
             />
           </div>
         </div>
@@ -50,6 +52,8 @@ export default function Coaching() {
                 width={424}
                 className="rounded"
                 alt="feature"
+                placeholder="blur"
+                loading="lazy"
               />
               <div className="mt-4 px-1">
                 <h4 className="text-black font-semibold lg:text-xl sm:text-lg">
@@ -117,6 +121,8 @@ export default function Coaching() {
                 height={50}
                 width={50}
                 alt="number"
+                placeholder="blur"
+                loading="lazy"
               />
               <h4 className="text-black font-semibold lg:text-xl sm:text-lg py-4">
                 Nhận tư vấn
@@ -132,6 +138,8 @@ export default function Coaching() {
               width={240}
               alt="process"
               className="mx-auto pt-4"
+              placeholder="blur"
+              loading="lazy"
             />
           </div>
           <div className="">
@@ -141,6 +149,8 @@ export default function Coaching() {
                 height={50}
                 width={50}
                 alt="number"
+                placeholder="blur"
+                loading="lazy"
               />
               <h4 className="text-black font-semibold lg:text-xl sm:text-lg py-4">
                 Gọi Cho Huấn luyện Viên
@@ -156,6 +166,8 @@ export default function Coaching() {
               width={240}
               alt="process"
               className="mx-auto pt-4"
+              placeholder="blur"
+              loading="lazy"
             />
           </div>
           <div className="">
@@ -165,6 +177,8 @@ export default function Coaching() {
                 height={50}
                 width={50}
                 alt="number"
+                placeholder="blur"
+                loading="lazy"
               />
               <h4 className="text-black font-semibold lg:text-xl sm:text-lg py-4">
                 Thiết Kế Chương Trình
@@ -180,6 +194,8 @@ export default function Coaching() {
               width={240}
               alt="process"
               className="mx-auto pt-4"
+              placeholder="blur"
+              loading="lazy"
             />
           </div>
           <div className="">
@@ -189,6 +205,8 @@ export default function Coaching() {
                 height={50}
                 width={50}
                 alt="number"
+                placeholder="blur"
+                loading="lazy"
               />
               <h4 className="text-black font-semibold lg:text-xl sm:text-lg py-4">
                 Điều Chỉnh Và Cải Thiện
@@ -204,6 +222,8 @@ export default function Coaching() {
               width={240}
               alt="process"
               className="mx-auto pt-4"
+              placeholder="blur"
+              loading="lazy"
             />
           </div>
         </div>
@@ -212,7 +232,14 @@ export default function Coaching() {
       {/* other */}
       <div className="container border-8 border-primary py-12 mt-4 mb-12">
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-8">
-          <Image src="/coaching/other.png" height={384} width={683} alt="" />
+          <Image
+            src="/coaching/other.png"
+            height={384}
+            width={683}
+            alt="other coaching"
+            placeholder="blur"
+            loading="lazy"
+          />
           <div className="flex flex-col justify-center">
             <h2 className="text-3xl sm:text-5xl font-bold py-8 text-gray-700 uppercase">
               Không chỉ là một dịch vụ.

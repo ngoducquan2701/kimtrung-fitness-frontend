@@ -26,6 +26,8 @@ export default function Testimonials() {
               height={889}
               width={725.5}
               className="w-auto h-auto"
+              placeholder="blur"
+              loading="lazy"
             />
           </div>
         </div>

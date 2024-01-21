@@ -15,14 +15,14 @@ export default function Home() {
   return (
     <>
       <div className="w-full h-auto md:min-h-[80vh] banner-clip-path">
-        <div className="bg-thumbnail bg-cover bg-right bg-no-repeat h-[500px] md:h-[80vh] flex items-center">
-          <div className="container">
-            <h1 className="font-bold text-gray-300 lg:text-5xl uppercase">
+        <div className="bg-thumbnail bg-cover bg-right bg-no-repeat h-[500px] md:h-[80vh] flex items-center relative before:absolute before:top-0 before:right-0 before:left-0 before:bottom-0 before:bg-[#000] before:opacity-50 sm:before:hidden">
+          <div className="container z-10 sm:text-gray-300 text-gray-200">
+            <h1 className="font-bold lg:text-5xl md:text-3xl text-xl uppercase">
               <span className="block pb-2">Khám phá giới hạn bản thân</span>
               Đạt được kết quả về thể chất
             </h1>
 
-            <p className="text-2xl text-gray-300 py-10">
+            <p className="md:text-2xl text-xl py-10">
               <span className="pb-2">
                 Bạn muốn thay đổi lối sống healthy hơn? Thách thức chính mình?
               </span>
@@ -46,12 +46,14 @@ export default function Home() {
               height={400}
               alt="book"
               className="mx-auto"
+              placeholder='blur'
+              loading="lazy"	
             />
           </div>
           <div className="lg:basis-2/3 md:basis-1/2 flex items-center justify-center text-gray-700">
             <div>
               <h2 className="lg:text-5xl text-3xl font-bold uppercase italic text-center md:text-left ">
-                SPICECIAL GIL
+                SPICECIAL GIF
               </h2>
               <p className="py-5 text-xl">
                 Cuốn sách đặc biệt Trung dành cho khán giả của mình.
@@ -72,8 +74,8 @@ export default function Home() {
       <div className="bg-[url('/bg-2.png')] bg-cover bg-[center_top_-1.5rem] bg-no-repeat min-h-full h-[474px] w-full flex items-center">
         <div className="container">
           <div className="flex flex-col items-center">
-            <h2 className="text-3xl lg:text-5xl font-bold uppercase">
-              Bạn muốn cải thiện sức khỏe của mình
+            <h2 className="text-3xl lg:text-5xl font-bold uppercase sm:pb-2 whitespace-nowrap">
+              Bạn muốn cải thiện sức khỏe
             </h2>
             <h3 className="text-2xl font-bold uppercase">
               Không biết bắt đầu từ đâu?
@@ -104,6 +106,8 @@ export default function Home() {
               height={632}
               alt="about-me"
               className="mx-auto w-auto h-auto"
+              placeholder='blur'
+              loading="lazy"	
             />
           </div>
           <div className="lg:basis-2/3 md:basis-1/2 flex items-center justify-center">
@@ -167,6 +171,8 @@ export default function Home() {
                       width={100}
                       alt="avatart-testimonials"
                       className="rounded-full"
+                      placeholder='blur'
+                      loading="lazy"	
                     />
                     <h3 className="font-bold text-xl uppercase mt-4">
                       {item.name}
