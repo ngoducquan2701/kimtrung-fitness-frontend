@@ -15,7 +15,7 @@
     "clsx": "^2.1.0",
     "embla-carousel-react": "^8.0.0-rc18",
     "lucide-react": "^0.307.0",
-    "next": "14.0.4",
+    "next": "13.4.7",
     "react": "^18",
     "react-dom": "^18",
     "sharp": "^0.33.1",
