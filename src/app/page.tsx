@@ -53,7 +53,7 @@ export default function Home() {
           <div className="lg:basis-2/3 md:basis-1/2 flex items-center justify-center text-gray-700">
             <div>
               <h2 className="lg:text-5xl text-3xl font-bold uppercase italic text-center md:text-left ">
-                SPICECIAL GIF
+                SPICECIAL GIFT
               </h2>
               <p className="py-5 text-xl">
                 Cuốn sách đặc biệt Trung dành cho khán giả của mình.
