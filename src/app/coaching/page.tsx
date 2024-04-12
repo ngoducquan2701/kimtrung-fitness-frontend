@@ -10,13 +10,20 @@ export default function Coaching() {
       <div className="bg-[url('/thumbnail-2.png')] w-full">
         <div className="container py-16 flex flex-col lg:flex-row items-center justify-between min-h-[70vh]">
           <div className="flex-1 lg:basis-1/2 ">
-            <h1 className="font-bold text-gray-300 text-xl sm:text-3xl md:text-5xl uppercase">
+            <h1
+              className="font-bold text-gray-300 text-xl sm:text-3xl md:text-5xl uppercase"
+              data-aos="fade-right"
+            >
               TẠO RA SỰ THỊNH VƯỢNG THỂ CHẤT
               <br />
               CỦA BẠN CÙNG CHÚNG TÔI
             </h1>
 
-            <p className="text-base sm:text-xl md:text-2xl text-gray-300 py-10">
+            <p
+              className="text-base sm:text-xl md:text-2xl text-gray-300 py-10"
+              data-aos="fade-right"
+              data-aos-delay="150"
+            >
               <span className="pb-2">
                 Xây dựng sức mạnh và sự tự tin của bạn từng bước
               </span>
@@ -32,7 +39,6 @@ export default function Coaching() {
               src="/coaching/coaching-thumb.png"
               height={889}
               width={725.5}
-              placeholder="blur"
               loading="lazy"
             />
           </div>
@@ -40,19 +46,18 @@ export default function Coaching() {
       </div>
       {/* feature */}
       <div className="container mt-12">
-        <div className="text-center text-gray-700 text-3xl sm:text-5xl font-bold pb-12 pt-8 uppercase">
+        <div className="text-center text-gray-700 text-3xl sm:text-5xl font-bold pb-12 pt-8 uppercase" data-aos="fade-up">
           tại sao chọn chúng tôi
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
           {features.map((item, idx) => (
-            <div key={idx} className="rounded-sm overflow-hidden mb-12">
+            <div key={idx} className="rounded-sm overflow-hidden mb-12" data-aos="fade-up" data-aos-delay="150">
               <Image
                 src={item.thumb}
                 height={424}
                 width={424}
                 className="rounded"
                 alt="feature"
-                placeholder="blur"
                 loading="lazy"
               />
               <div className="mt-4 px-1">
@@ -69,10 +74,10 @@ export default function Coaching() {
       {/* That's why */}
       <div className="w-full bg-primary pb-12 pt-6">
         <div className="container">
-          <h2 className="text-center text-3xl sm:text-5xl font-bold pb-14 pt-8 uppercase">
+          <h2 className="text-center text-3xl sm:text-5xl font-bold pb-14 pt-8 uppercase" data-aos="fade-up">
             Một phiên bản mới mạnh hơn, khỏe hơn và tự tin hơn
           </h2>
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4" data-aos="fade-up" data-aos-delay="150">
             <div className="rounded-sm flex flex-col items-center justify-center overflow-hidden mb-8">
               <Icons.calendar width={50} height={50} />
               <div className="mt-6">
@@ -110,10 +115,10 @@ export default function Coaching() {
 
       {/* Operating process */}
       <div className="container py-12">
-        <h2 className="text-center text-3xl sm:text-5xl font-bold pb-14 pt-8 uppercase text-gray-700">
+        <h2 className="text-center text-3xl sm:text-5xl font-bold pb-14 pt-8 uppercase text-gray-700" data-aos="fade-up">
           Một phiên bản mới mạnh hơn, khỏe hơn và tự tin hơn
         </h2>
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8" data-aos="fade-up" data-aos-delay="150">
           <div className="">
             <div className="flex flex-col mb-8">
               <Image
@@ -121,7 +126,6 @@ export default function Coaching() {
                 height={50}
                 width={50}
                 alt="number"
-                placeholder="blur"
                 loading="lazy"
               />
               <h4 className="text-black font-semibold lg:text-xl sm:text-lg py-4">
@@ -138,7 +142,6 @@ export default function Coaching() {
               width={240}
               alt="process"
               className="mx-auto pt-4"
-              placeholder="blur"
               loading="lazy"
             />
           </div>
@@ -149,7 +152,6 @@ export default function Coaching() {
                 height={50}
                 width={50}
                 alt="number"
-                placeholder="blur"
                 loading="lazy"
               />
               <h4 className="text-black font-semibold lg:text-xl sm:text-lg py-4">
@@ -166,7 +168,6 @@ export default function Coaching() {
               width={240}
               alt="process"
               className="mx-auto pt-4"
-              placeholder="blur"
               loading="lazy"
             />
           </div>
@@ -177,7 +178,6 @@ export default function Coaching() {
                 height={50}
                 width={50}
                 alt="number"
-                placeholder="blur"
                 loading="lazy"
               />
               <h4 className="text-black font-semibold lg:text-xl sm:text-lg py-4">
@@ -194,7 +194,6 @@ export default function Coaching() {
               width={240}
               alt="process"
               className="mx-auto pt-4"
-              placeholder="blur"
               loading="lazy"
             />
           </div>
@@ -205,7 +204,6 @@ export default function Coaching() {
                 height={50}
                 width={50}
                 alt="number"
-                placeholder="blur"
                 loading="lazy"
               />
               <h4 className="text-black font-semibold lg:text-xl sm:text-lg py-4">
@@ -222,7 +220,6 @@ export default function Coaching() {
               width={240}
               alt="process"
               className="mx-auto pt-4"
-              placeholder="blur"
               loading="lazy"
             />
           </div>
@@ -237,10 +234,10 @@ export default function Coaching() {
             height={384}
             width={683}
             alt="other coaching"
-            placeholder="blur"
             loading="lazy"
+            data-aos="fade-right"
           />
-          <div className="flex flex-col justify-center">
+          <div className="flex flex-col justify-center" data-aos="fade-left" data-aos-delay="150">
             <h2 className="text-3xl sm:text-5xl font-bold py-8 text-gray-700 uppercase">
               Không chỉ là một dịch vụ.
               <br /> Không chỉ là huấn luyện viên.
@@ -255,17 +252,17 @@ export default function Coaching() {
       </div>
 
       <div className="w-full bg-black py-8">
-        <div className="container flex flex-col text-white justify-center items-center">
-          <h2 className="text-3xl sm:text-5xl font-bold py-8 uppercase">
+        <div className="container flex flex-col text-slate-50 justify-center items-center">
+          <h2 className="text-3xl sm:text-5xl font-bold py-8 uppercase" data-aos="fade-up">
             Bắt đầu hành trình tập luyện của bạn
           </h2>
-          <p className="md:text-lg mb-12 text-center">
+          <p className="md:text-lg mb-12 text-center" data-aos="fade-up" data-aos-delay="150">
             Bạn đã sẵn sàng cho hành trình tập thể dục dành riêng cho mình chưa?
             Tham gia 3K và trải nghiệm thể dục thực sự được cá nhân hóa.
             <br /> Hãy cùng nhau xây dựng một phiên bản mạnh mẽ hơn, khỏe mạnh
             hơn và tự tin hơn của bạn.
           </p>
-          <div className="pb-12">
+          <div className="pb-12" data-aos="fade-up" data-aos-delay="300">
             <Button size={'lg'}>
               <span className="text-xl text-black">
                 Bắt đầu hành trình của bạn

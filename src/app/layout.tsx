@@ -4,13 +4,12 @@ import '@/styles/globals.css';
 import { cn } from '@/lib/utils';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
-import Head from 'next/head';
+import { AOSInit } from '@/components/Aos';
 
 const inter = Inter({ subsets: ['latin'] });
 const barlow = Barlow_Condensed({
   subsets: ['latin'],
   weight: ['300', '500', '700', '800', '900'],
-  
 });
 
 export const metadata: Metadata = {
@@ -31,21 +30,22 @@ export default function RootLayout({
         barlow.className
       )}
     >
+      <AOSInit />
       <head>
-        <meta charSet="UTF-8" />
+        <meta charSet="UTF-https://github.com/NHILE-TEAM/nhile-official-frontend.git8" />
         <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
         <link rel="icon" type="image/x-icon" href="/favicon.ico" />
       </head>
       <body className="min-h-screen bg-slate-50 antialiased flex flex-col">
-         <header className='w-full'>
-            <div className="container mx-auto flex items-center justify-between">
-              <Navbar />
-            </div>
-         </header>
-          <main className="flex w-full flex-1 flex-col overflow-hidden">
-            {children}
-          </main>
-          <Footer />
+        <header className="w-full">
+          <div className="container mx-auto flex items-center justify-between">
+            <Navbar />
+          </div>
+        </header>
+        <main className="flex w-full flex-1 flex-col overflow-hidden">
+          {children}
+        </main>
+        <Footer />
       </body>
     </html>
   );

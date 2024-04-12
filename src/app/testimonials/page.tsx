@@ -7,11 +7,18 @@ export default function Testimonials() {
       <div className="bg-[url('/thumbnail-2.png')] w-full">
         <div className="container py-16 flex flex-col lg:flex-row items-center justify-between">
           <div className="flex-1 lg:basis-2/3 ">
-            <h1 className="font-bold text-gray-300 text-xl sm:text-3xl md:text-5xl uppercase">
+            <h1
+              className="font-bold text-gray-300 text-xl sm:text-3xl md:text-5xl uppercase"
+              data-aos="fade-right"
+            >
               Những Câu Chuyện Thành Công
             </h1>
 
-            <p className="text-base sm:text-xl md:text-2xl text-gray-300 py-10">
+            <p
+              className="text-base sm:text-xl md:text-2xl text-gray-300 py-10"
+              data-aos="fade-right"
+              data-aos-delay="150"
+            >
               <span className="pb-2">
                 Khám phá hành trình đầy cảm hứng của những người
               </span>
@@ -19,14 +26,16 @@ export default function Testimonials() {
               <span>đã cùng chúng tôi đạt được sự thay đổi vượt bậc.</span>
             </p>
           </div>
-          <div className="flex-1 lg:basis-1/3 flex justify-end mx-auto md:mt-8 lg:mt-0">
+          <div
+            className="flex-1 lg:basis-1/3 flex justify-end mx-auto md:mt-8 lg:mt-0"
+            data-aos="fade-left"
+          >
             <Image
               alt="customer-testimonials"
               src="/coaching/testimonials-thumb.png"
               height={889}
               width={725.5}
               className="w-auto h-auto"
-              placeholder="blur"
               loading="lazy"
             />
           </div>

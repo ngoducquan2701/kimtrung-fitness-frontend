@@ -1,11 +1,12 @@
 'use client';
 
-import { navigation } from '@/constants';
-import { cn } from '@/lib/utils';
 import Image from 'next/image';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import * as React from 'react';
+
+import { navigation } from '@/constants';
+import { cn } from '@/lib/utils';
 
 export default function Navbar() {
   const [state, setState] = React.useState(false);
@@ -23,7 +24,8 @@ export default function Navbar() {
               alt="logo"
               className="rounded-full h-auto w-auto"
               placeholder='blur'
-              loading="lazy"	
+              loading="lazy"
+              blurDataURL='/logo-blur.webp'
             />
           </Link>
           <div className="md:hidden">
