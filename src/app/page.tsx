@@ -64,6 +64,7 @@ export default function Home() {
             <div>
               <h2 className="lg:text-5xl text-3xl font-bold uppercase italic text-center md:text-left">
                 SPICECIAL GIF
+
               </h2>
               <p className="py-5 text-xl">
                 Cuốn sách đặc biệt Trung dành cho khán giả của mình.
