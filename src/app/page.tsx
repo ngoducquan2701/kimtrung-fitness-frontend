@@ -10,6 +10,7 @@ import {
   CarouselPrevious,
 } from '@/components/ui/Carousel';
 import { testimonials } from '@/constants';
+import {VideoSection} from '@/components/Video';
 
 export default function Home() {
   return (
@@ -63,8 +64,7 @@ export default function Home() {
           >
             <div>
               <h2 className="lg:text-5xl text-3xl font-bold uppercase italic text-center md:text-left">
-                SPICECIAL GIF
-
+                SPICECIAL GIFT
               </h2>
               <p className="py-5 text-xl">
                 Cuốn sách đặc biệt Trung dành cho khán giả của mình.
@@ -192,7 +192,7 @@ export default function Home() {
       </div>
 
       {/* testimonials */}
-      <div className="w-full py-12 bg-primary">
+      {/* <div className="w-full py-12 bg-primary">
         <div className="container">
           <h2
             className="text-3xl lg:text-5xl font-bold uppercase italic text-center mb-8"
@@ -200,21 +200,17 @@ export default function Home() {
           >
             Phản hồi khách hàng
           </h2>
-          <Carousel>
-            <CarouselContent>
+          <Carousel
+            opts={{
+              containScroll: false,
+              startIndex: 1,
+            }}
+            className="embla"
+          >
+            <CarouselContent className="embla__container">
               {testimonials.map((item, idx) => (
-                <CarouselItem key={idx}>
+                <CarouselItem key={idx} className="embla__slide">
                   <div className="flex flex-col justify-center items-center">
-                    <Image
-                      src={item.avatart}
-                      height={100}
-                      width={100}
-                      alt="avatart-testimonials"
-                      className="rounded-full"
-                      loading="lazy"
-                      data-aos="fade-up"
-                      data-aos-delay="100"
-                    />
                     <h3
                       className="font-bold text-xl uppercase mt-4"
                       data-aos="fade-up"
@@ -229,17 +225,6 @@ export default function Home() {
                     >
                       {item.position}
                     </h4>
-                    <div
-                      className="text-left max-w-5xl"
-                      data-aos="fade-up"
-                      data-aos-delay="300"
-                    >
-                      {item.content.map((item, idx) => (
-                        <p className="sm:text-xl text-lg" key={idx}>
-                          {item}
-                        </p>
-                      ))}
-                    </div>
                   </div>
                 </CarouselItem>
               ))}
@@ -248,7 +233,8 @@ export default function Home() {
             <CarouselNext />
           </Carousel>
         </div>
-      </div>
+      </div> */}
+      <VideoSection />
     </>
   );
 }

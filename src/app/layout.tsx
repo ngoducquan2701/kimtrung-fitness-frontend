@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import { Barlow_Condensed, Inter } from 'next/font/google';
 import '@/styles/globals.css';
+import '@/styles/embla.css';
 import { cn } from '@/lib/utils';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
@@ -32,7 +33,6 @@ export default function RootLayout({
     >
       <AOSInit />
       <head>
-        <meta charSet="UTF-https://github.com/NHILE-TEAM/nhile-official-frontend.git8" />
         <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
         <link rel="icon" type="image/x-icon" href="/favicon.ico" />
       </head>
